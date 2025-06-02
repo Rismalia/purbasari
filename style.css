@@ -1,0 +1,80 @@
+{box-sizing: border-box;}
+body {
+	font-family:arial;
+    padding: 10px;
+}
+
+/* ini kode untk apa? */
+.header {
+	padding: 30px;
+	text-align: center;
+	background: white;
+}
+
+.header h1 {font-size: 50px;}
+
+/*Style the top navigation */
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a: hover{
+	background-color: #ddd;
+	color: black;
+}
+
+/* Create two unequal that floats next to each other 8*/
+/* Left column */
+.leftcolum {
+	float: left;
+	width: 75%;
+}
+
+/* Right column*/
+.rigtcolumn {
+	float: right;
+	width: 25%;
+	background-color: #f1f1f1;
+	padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+	background-color: #aaa;
+	width: 100%;
+	padding: 20px;
+}
+
+/* ini kode untuk artikel */
+.card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+/* clear floats after the colin */
+.row::after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+/* footer */
+.footer {
+	padding: 20px;
+	text-align: center;
+	background: #ddd;
+	margin-top: 20px;
+}
